@@ -489,6 +489,8 @@
   <dynamicField name="*__int" type="plong" indexed="true" stored="true"/>
   <dynamicField name="*__ints" type="plongs" indexed="true" stored="true"/>
   <dynamicField name="*__str" type="string" indexed="true" stored="true"/>
+  <dynamicField name="*__time" type="pdate" indexed="true" stored="true"/>
+  <dynamicField name="*__times" type="pdates" indexed="true" stored="true"/>
   <dynamicField name="*__txt" type="text_general" multiValued="false" indexed="true" stored="true"/>
   <dynamicField name="*__txts" type="text_general" indexed="true" stored="true"/>
   <dynamicField name="*__uri" type="string" indexed="true" stored="true"/>
