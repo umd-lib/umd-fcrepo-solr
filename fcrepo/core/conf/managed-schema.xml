@@ -476,6 +476,7 @@
   <field name="_text_" type="text_general" multiValued="true" indexed="true" stored="false"/>
   <field name="_version_" type="plong" indexed="false" stored="false"/>
   <field name="id" type="string" multiValued="false" indexed="true" required="true" stored="true"/>
+  <field name="last_indexed" type="pdate" default="NOW" indexed="true" stored="true"/>
 
   <!-- data-typed fields -->
   <dynamicField name="*__curie" type="string" indexed="true" stored="true"/>
